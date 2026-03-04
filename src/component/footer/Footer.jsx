@@ -6,10 +6,10 @@ import emailLogo from "../../assets/email.png";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200 text-base-content p-10">
+    <div className="bg-black text-base-content p-10">
       <footer className="grid grid-cols-1 lg:grid-cols-6 gap-8">
         <aside className="lg:col-span-2">
-          <h2 className="text-xl font-bold mb-3">CS — Ticket System</h2>
+          <h2 className="text-xl font-bold mb-3 text-white">CS — Ticket System</h2>
 
           <p className="w-4/5 text-sm text-gray-400">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -63,7 +63,7 @@ const Footer = () => {
           </p>
         </nav>
 
-        <div className="lg:col-span-6 border-t border-base-300 pt-4 text-center text-sm mt-4">
+        <div className="lg:col-span-6 border-t border-base-300 pt-4 text-center text-white text-sm mt-4">
           © {new Date().getFullYear()} CS — Ticket System. All rights reserved.
         </div>
       </footer>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Users are unable to access the login page and see a blank screen.",
+    "customer": "Ahmed Khan",
+    "priority": "high",
+    "status": "In-Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout",
+    "description": "Checkout process fails due to payment gateway timeout error.",
+    "customer": "Sara Ali",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 3,
+    "title": "Profile update not saving",
+    "description": "Customer profile updates are not saved after submission.",
+    "customer": "Omar Hassan",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-02-28"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard data mismatch",
+    "description": "Sales numbers displayed on dashboard do not match reports.",
+    "customer": "Fatima Noor",
+    "priority": "high",
+    "status": "In-Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 5,
+    "title": "Email notifications not received",
+    "description": "Order confirmation emails are not being delivered to customers.",
+    "customer": "Bilal Ahmed",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 6,
+    "title": "Mobile layout broken",
+    "description": "UI components overlap on smaller mobile screens.",
+    "customer": "Ayesha Malik",
+    "priority": "low",
+    "status": "In-Progress",
+    "createdAt": "2026-02-27"
+  },
+  {
+    "id": 7,
+    "title": "Password reset link expired",
+    "description": "Generated password reset links expire immediately.",
+    "customer": "Zain Abdullah",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 8,
+    "title": "Search functionality slow",
+    "description": "Search results take more than 10 seconds to load.",
+    "customer": "Mariam Saleh",
+    "priority": "medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "title": "File upload fails",
+    "description": "Uploading attachments larger than 5MB results in an error.",
+    "customer": "Hassan Raza",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 10,
+    "title": "Incorrect invoice total",
+    "description": "Invoice total calculation does not include applied discounts correctly.",
+    "customer": "Noor Sheikh",
+    "priority": "low",
+    "status": "In-Progress",
+    "createdAt": "2026-03-02"
+  }
+]
