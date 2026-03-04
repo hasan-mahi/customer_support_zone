@@ -1,7 +1,7 @@
 import React from "react";
 import vectorImg from "../../assets/vector1.png";
 
-const Banner = ({selectedTickets}) => {
+const Banner = ({ selectedTickets, resolvedTasks }) => {
   return (
     <div className="w-11/12 mx-auto my-5">
       <div className="grid gap-4 sm:grid-cols-2 grid-cols-1">
@@ -18,7 +18,7 @@ const Banner = ({selectedTickets}) => {
           <img src={vectorImg} className="h-full w-full" alt="" />
           <div className="flex flex-col items-center justify-center text-center">
             <p>Resolved</p>
-            <h1 className="text-3xl font-semibold">0</h1>
+            <h1 className="text-3xl font-semibold">{resolvedTasks.length}</h1>
           </div>
           <img src={vectorImg} className="h-full w-full rotate-180" alt="" />
         </div>

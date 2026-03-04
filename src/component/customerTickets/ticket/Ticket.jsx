@@ -3,8 +3,7 @@ import ellipseOpen from "../../../assets/EllipseOpen.png";
 import ellipseIp from "../../../assets/EllipseIp.png";
 import calenderImg from "../../../assets/calender.png";
 
-const Ticket = ({ ticket,handleCardClick }) => {
-
+const Ticket = ({ ticket, handleCardClick }) => {
   return (
     <div>
       <div

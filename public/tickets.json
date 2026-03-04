@@ -5,7 +5,7 @@
     "description": "Users are unable to access the login page and see a blank screen.",
     "customer": "Ahmed Khan",
     "priority": "high",
-    "status": "In-Progress",
+    "status": "open",
     "createdAt": "2026-03-01"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Sales numbers displayed on dashboard do not match reports.",
     "customer": "Fatima Noor",
     "priority": "high",
-    "status": "In-Progress",
+    "status": "open",
     "createdAt": "2026-03-02"
   },
   {
@@ -50,7 +50,7 @@
     "description": "UI components overlap on smaller mobile screens.",
     "customer": "Ayesha Malik",
     "priority": "low",
-    "status": "In-Progress",
+    "status": "open",
     "createdAt": "2026-02-27"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Search results take more than 10 seconds to load.",
     "customer": "Mariam Saleh",
     "priority": "medium",
-    "status": "In-Progress",
+    "status": "open",
     "createdAt": "2026-03-01"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Invoice total calculation does not include applied discounts correctly.",
     "customer": "Noor Sheikh",
     "priority": "low",
-    "status": "In-Progress",
+    "status": "open",
     "createdAt": "2026-03-02"
   }
 ]
