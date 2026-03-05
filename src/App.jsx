@@ -27,6 +27,17 @@ function App() {
       return;
     }
 
+    // Update ticket status
+    const updatedTickets = tickets.map((t) => {
+      if (t.id === ticket.id) {
+        return { ...t, status: "In-Progress" };
+      } else {
+        return t;
+      }
+    });
+
+    setTickets(updatedTickets);
+
     const newSelectedTickets = [...selectedTickets, ticket];
     setSelectedTickets(newSelectedTickets);
     toast.success(`${ticket.title} added to Task Status`);
@@ -39,7 +50,6 @@ function App() {
       (t) => t.id !== ticket.id,
     );
     setSelectedTickets(updateSelectedTickets);
-    // update the tickets state
     const updateTickets = tickets.filter((t) => t.id !== ticket.id);
     setTickets(updateTickets);
     toast.success(`${ticket.title} marked as resolved!`);

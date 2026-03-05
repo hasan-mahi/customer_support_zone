@@ -11,7 +11,6 @@ const Ticket = ({ ticket, handleCardClick }) => {
         className="card bg-base-100 shadow-md hover:shadow-lg transition w-full h-full cursor-pointer"
       >
         <div className="card-body flex flex-col justify-between">
-          {/* Top Section */}
           <div>
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
               <h2 className="card-title text-base sm:text-lg line-clamp-1">
@@ -31,13 +30,11 @@ const Ticket = ({ ticket, handleCardClick }) => {
               )}
             </div>
 
-            {/* Description */}
             <p className="text-sm text-base-content/70 mt-2 line-clamp-2">
               {ticket.description}
             </p>
           </div>
 
-          {/* Bottom Section */}
           <div className="flex flex-col sm:flex-row sm:justify-between text-sm gap-2">
             <div className="flex gap-4">
               <p className="font-medium">#{ticket.id}</p>
