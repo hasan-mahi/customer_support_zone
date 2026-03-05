@@ -18,12 +18,12 @@ const Ticket = ({ ticket, handleCardClick }) => {
               </h2>
 
               {ticket.status === "open" ? (
-                <div className="badge bg-[#B9F8CF] gap-2 px-3 py-2">
+                <div className="badge bg-[#B9F8CF] gap-2 py-2">
                   <img src={ellipseOpen} alt="" className="w-3 h-3" />
                   {ticket.status}
                 </div>
               ) : (
-                <div className="badge bg-[#F8F3B9] gap-2 px-3 py-2">
+                <div className="badge bg-[#F8F3B9] gap-2 px-3 py-2 whitespace-nowrap">
                   <img src={ellipseIp} alt="" className="w-3 h-3" />
                   {ticket.status}
                 </div>

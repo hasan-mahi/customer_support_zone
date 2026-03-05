@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 1001,
     "title": "Login page not loading",
     "description": "Users are unable to access the login page and see a blank screen.",
     "customer": "Ahmed Khan",
@@ -9,7 +9,7 @@
     "createdAt": "2026-03-01"
   },
   {
-    "id": 2,
+    "id": 1002,
     "title": "Payment gateway timeout",
     "description": "Checkout process fails due to payment gateway timeout error.",
     "customer": "Sara Ali",
@@ -18,7 +18,7 @@
     "createdAt": "2026-03-01"
   },
   {
-    "id": 3,
+    "id": 1003,
     "title": "Profile update not saving",
     "description": "Customer profile updates are not saved after submission.",
     "customer": "Omar Hassan",
@@ -27,7 +27,7 @@
     "createdAt": "2026-02-28"
   },
   {
-    "id": 4,
+    "id": 1004,
     "title": "Dashboard data mismatch",
     "description": "Sales numbers displayed on dashboard do not match reports.",
     "customer": "Fatima Noor",
@@ -36,7 +36,7 @@
     "createdAt": "2026-03-02"
   },
   {
-    "id": 5,
+    "id": 1005,
     "title": "Email notifications not received",
     "description": "Order confirmation emails are not being delivered to customers.",
     "customer": "Bilal Ahmed",
@@ -45,7 +45,7 @@
     "createdAt": "2026-03-02"
   },
   {
-    "id": 6,
+    "id": 1006,
     "title": "Mobile layout broken",
     "description": "UI components overlap on smaller mobile screens.",
     "customer": "Ayesha Malik",
@@ -54,7 +54,7 @@
     "createdAt": "2026-02-27"
   },
   {
-    "id": 7,
+    "id": 1007,
     "title": "Password reset link expired",
     "description": "Generated password reset links expire immediately.",
     "customer": "Zain Abdullah",
@@ -63,7 +63,7 @@
     "createdAt": "2026-03-03"
   },
   {
-    "id": 8,
+    "id": 1008,
     "title": "Search functionality slow",
     "description": "Search results take more than 10 seconds to load.",
     "customer": "Mariam Saleh",
@@ -72,7 +72,7 @@
     "createdAt": "2026-03-01"
   },
   {
-    "id": 9,
+    "id": 1009,
     "title": "File upload fails",
     "description": "Uploading attachments larger than 5MB results in an error.",
     "customer": "Hassan Raza",
@@ -81,12 +81,57 @@
     "createdAt": "2026-03-03"
   },
   {
-    "id": 10,
+    "id": 10010,
     "title": "Incorrect invoice total",
     "description": "Invoice total calculation does not include applied discounts correctly.",
     "customer": "Noor Sheikh",
     "priority": "low",
     "status": "open",
     "createdAt": "2026-03-02"
+  },
+  {
+    "id": 10011,
+    "title": "API response delay",
+    "description": "Backend API responses are taking longer than expected during peak hours.",
+    "customer": "Khalid Rahman",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 10012,
+    "title": "Broken image links on homepage",
+    "description": "Several product images are not loading on the homepage.",
+    "customer": "Laila Ahmed",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 10013,
+    "title": "Order history not displaying",
+    "description": "Customers cannot view their previous orders in the dashboard.",
+    "customer": "Yousef Ali",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 10014,
+    "title": "Session logout issue",
+    "description": "Users are automatically logged out after a few minutes of inactivity.",
+    "customer": "Huda Salman",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 10015,
+    "title": "Discount code not applying",
+    "description": "Promo codes are not applying correctly at checkout.",
+    "customer": "Rashid Karim",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-05"
   }
 ]
